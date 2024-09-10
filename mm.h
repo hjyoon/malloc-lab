@@ -4,6 +4,11 @@ extern int mm_init (void);
 extern void *mm_malloc (size_t size);
 extern void mm_free (void *ptr);
 extern void *mm_realloc(void *ptr, size_t size);
+// extern void* extend_heap(size_t);
+// // extern void* coalesce(void*);
+// extern void* find_fit(size_t);
+// // extern void place(void*, size_t);
+// extern int get_free_list_pos(size_t);
 
 
 /* 
